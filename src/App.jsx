@@ -78,7 +78,7 @@ function App() {
     <div className='app'>
       {
         isLoading? 
-        <h2>Start...</h2>
+        <div className="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
         :
         textInput? 
         <WeatherCard
